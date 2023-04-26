@@ -130,7 +130,6 @@ public class App {
 			String lastname = scan.nextLine();
 			Boolean emailexist = true;
 			String userid = "";
-
 			System.out.println("Enter Your UserId");
 			userid = scan.nextLine();
 			query = session.createQuery("from NewUser where userId = '" + userid + "'");
